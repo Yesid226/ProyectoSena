@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./../../style/styleIndex.css">
+    <link rel="stylesheet" href="./../../style/styleRoles/docente.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/63da8e6409.js" crossorigin="anonymous"></script>
+    <title>DOCENTE - SENA</title>
+    <link rel="icon" href="../../img/logo.png" type="image/png">
+</head>
+<body>
+
+    <header>
+        <div class="nav-container">
+
+            <div class="lista">
+                <ul>
+                    <li><a href="">Colegio</a></li>
+                    <li><a href="#submain">Noticias</a></li>
+                    <li><a href="">Documentación</a></li>
+                    <li><a href="" class="verNotas">Ver notas</a></li>
+                    <li><a href="" class="eDocs">Subir documentos</a></li>
+                    <li><a href="" class="eNotas">Editar notas</a></li>
+                </ul>
+            </div>
+            <div class="lista2">
+                <ul>
+                    <li><a href="../../index.html"><button class="ingresar">Salir</button></a></li>
+                    <li class="fecha"></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="mNotas">
+
+        <div class="busquedaNotas">
+
+            <h4>Editar notas estudiantiles</h4>
+
+            <input type="text" class="inputBuscar" placeholder="Escriba acá el ID/CC del alumno...">
+            <button class="buscarAlumno">Buscar</button>
+
+        </div>
+
+    </div>
+    <div class="mDocs">
+
+        <div class="subirDocumentos">
+
+            <h4>Subir documentos estudiantiles</h4>
+
+            <div class="input-group mb-3 inputB">
+                <input type="file" class="form-control" id="inputGroupFile02"><br>
+                <label class="input-group-text inputBText" for="inputGroupFile02">Foto estudiantil</label>
+            </div>
+            <div class="input-group mb-3 inputB">
+                <input type="file" class="form-control" id="inputGroupFile02"><br>
+                <label class="input-group-text inputBText" for="inputGroupFile02">Registro civil</label>
+            </div>
+            <div class="input-group mb-3 inputB">
+                <input type="file" class="form-control" id="inputGroupFile02"><br>
+                <label class="input-group-text inputBText" for="inputGroupFile02">DI del estudiante</label>
+            </div>
+            <div class="input-group mb-3 inputB">
+                <input type="file" class="form-control" id="inputGroupFile02"><br>
+                <label class="input-group-text inputBText" for="inputGroupFile02">Seguro médico</label>
+            </div>
+
+            <button class="btn" id="SA">Subir archivos</button>
+
+        </div>
+
+    </div>
+
+    <script src="../../Js/roles/docentes.js"></script>
+
+</body>
+</html>

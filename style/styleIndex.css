@@ -1,0 +1,496 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Outfit:wght@200;300;400;500;600;700&display=swap');
+
+
+/*---------------------------------------------- NAV ----------------------------------------------------*/
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    font-family: 'Outfit';
+    padding: 0;
+    margin: 0;
+}
+
+.principal{
+    width: 100%;
+}
+
+.nav-container{
+    height: 100px;
+    display: flex;
+}
+
+.nav-container ul{
+    margin-top: 50px;
+    display: inline-flex;
+}
+
+.nav-container ul li{
+    list-style: none;
+    margin-left: 40px;
+}
+
+.nav-container .lista li{
+    padding: 10px;
+    transition: 0.1s;
+}
+
+.lista li:hover{
+    border-bottom: 3px solid #f0932b;
+    border-radius: 3px;
+}
+
+.lista li a:link{
+    color: black;
+    text-decoration: none;
+}
+
+.lista li a:visited{
+    color: black;
+}
+
+.lista2{
+    margin-left: 490px;
+}
+
+.lista2 ul li{
+    margin-left: 10px;
+}
+
+.lista2 .ingresar{
+    color: #fff;
+    background-color: #f39c12;
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    width: 90px;
+}
+
+.lista2 .ingresar:hover{
+    transform: scale(1.040,1.040);
+    background-color: #f1a222;
+}
+
+.lista2 .idioma{
+    cursor: pointer;
+    background: none;
+    border: none;
+    border-radius: 50px;
+    height: 30px;
+    width: 50px;
+}
+
+/*------------------------------------------ MAIN -----------------------------------------------*/
+
+.main{
+    display: flex;
+}
+
+.texts{
+    width: 35%;
+    margin-left: 170px;
+}
+
+.texts .tit{
+    font-size: 28px;
+    margin-top: 80px;
+    margin-left: 30px;
+    color: #f0932b;
+}
+
+.texts .subtext{
+    color: #84817a;
+}
+
+.cards{
+    margin-left: 200px;
+    margin-top: 100px;
+    width: 640px;
+}
+
+.cards .card{
+    margin-left: 110px;
+    border-radius: 7px;
+    height: 300px;
+    width: 320px;
+}
+
+.card .imgs{
+    height: 180px;
+    position: relative;
+}
+
+.card .imgs .profesor1{
+    transform: scale(1.3,1.3);
+}
+
+.card .tablero1{
+    margin-left: 17px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.card .profesor1{
+    position: absolute;
+    left: 100px;
+}
+
+.card .textsCard{
+    margin: 17px;
+    position: absolute;
+    box-shadow: rgba(71, 71, 71, 0.24) 0px 1px 10px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #f7f7f7;
+    height: 100px;
+    width: 290px;
+}
+
+.textsCard2{
+    margin-left: 20px;
+}
+
+.card1 .textsCard2 p{
+    margin-left: 60px;
+    font-size: 17px;
+}
+
+.btn-docentes{
+    background-color: #f0932b;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 25px;
+    border: none;
+    border-radius: 30px;
+    height: 30px;
+    width: 200px;
+    transition: 0.3s;
+}
+
+.btn-docentes:hover{
+    transform: scale(1.030,1.030);
+    background-color: #ee9e42;
+}
+
+.card1{
+    position: relative;
+}
+
+.card1:hover{
+    z-index: 1;
+}
+
+.card2{
+    top: 160px;
+    left: 620px;
+    position: absolute;
+}
+
+.card2 .textsCard2 p{
+    margin-left: 46px;
+}
+
+/*---------------------------------------------- SUBMAIN --------------------------------------------*/
+
+.submain{
+    margin-top: 120px;
+    background-color: #fff;
+    height: 620px;
+    width: 100%;
+    display: flex;
+}
+
+/*------- TABLA ------*/
+
+.tabla{
+    border-radius: 5px;
+    border: 1px solid #b1b1b1;
+    margin-left: 50px;
+    margin-top: 30px;
+    text-align: left;
+    width: 50%;
+    height: 550px;
+    display: flex;
+}
+
+.maqT{
+    margin-left: 35px;
+}
+
+.tabla .tablaP{
+    background-color: #dbdbdb;
+}
+
+tr, td{
+    padding: 10px;
+}
+
+/*----- SUBMAIN CONTENT -----*/
+
+.submainContent{
+    width: 470px;
+    height: 500px;
+    margin: 50px auto;
+}
+
+.submainContent img{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.submainTexts{
+    margin-left: 20px;
+}
+
+.submainTexts h4{
+    color: #f0932b;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.submainTexts .subtit{
+    color: #636363;
+    margin-top: 0;
+}
+
+.submainTexts hr{
+    border-radius: 10px;
+    border: 2px solid #f0932b;
+    width: 80%;
+}
+
+.submainTexts button{
+    cursor: pointer;
+    color: #fff;
+    background-color: #f0932b;
+    border: none;
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-left: 110px;
+    width: 200px;
+    height: 30px;
+}
+
+.submainTexts button:hover{
+    transform: scale(1.030,1.030);
+    background-color: #ee9e42;
+}
+
+/*---------------------------------------------- FOOTER --------------------------------------------*/
+
+.footer-basic {
+    padding:40px 0;
+    background-color: black;
+    color:#a9abad;
+  }
+  
+  .footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+  }
+
+  .footer-basic .list-inline{
+    display: inline-flex;
+    margin-left: 450px;
+  }
+  
+  .footer-basic li {
+    padding:0 10px;
+  }
+  
+  .footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+  }
+  
+  .footer-basic ul a:hover {
+    opacity:1;
+  }
+  
+  .footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+  }
+  
+  .footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    opacity:0.75;
+    transition: 2s;
+  }
+
+  .footer-basic .fa-facebook{
+    color: #067dd8;
+  }
+
+  .footer-basic .fa-twitter{
+    color: #2f95e4;
+  }
+
+  .footer-basic .fa-youtube{
+    color: crimson;
+  }
+  
+  .footer-basic .social > a:hover {
+    opacity:0.9;
+    transform: rotate(360deg);
+  }
+  
+  .footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+  }
+
+
+  /*-------------------------------------- RESPONSIVE ---------------------------------------*/
+
+  @media (min-width: 320px) and (max-width: 767px){
+
+    body{
+        max-width: 480px;
+        width: 480px;
+        background-size: auto 25%;
+    }
+
+    .principal{
+       overflow: hidden;
+    }
+
+    .nav-container ul{
+        padding-left: 10px;
+    }
+
+    .lista2{
+        margin-top: 5px;
+        margin-left: 60px;
+    }
+
+    .lista2 .ingresar{
+        top: 10px;
+        left: 200px;
+        position: fixed;
+        z-index: 1;
+    }
+
+    .lista2 .fecha{
+        display: none;
+    }
+
+    .nav-container ul{
+        margin-left: 20px;
+    }
+
+    .nav-container ul li{
+        margin-left: 30px;
+    }
+
+    .main{
+        display: block;
+    }
+
+    .main .texts{
+        width: 300px;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+
+    .main .cards{
+        margin-top: 560px;
+        margin-left: 130px;
+    }
+
+    .main .card1{
+        left: -150px;
+    }
+
+    .main .card2{
+        top: 650px;
+        left: -20px;
+    }
+
+    .submain{
+        display: block;
+    }
+
+    .submain .tabla{
+        display: none;
+    }
+
+    .submainContent{
+        margin-left: 5px;
+        margin-top: 10px;
+    }
+
+    .footer-basic{
+        width: 500px;
+    }
+
+    .footer-basic .list-inline{
+        margin-left: 10px;
+    }
+}
+
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    body{
+        background-size: 100%;
+    }
+
+    .nav-container ul{
+        margin-left: 50px;
+    }
+
+    .lista2{
+        margin-left: 10px;
+    }
+
+    .main{
+        display: block;
+    }
+
+    .main .texts{
+        width: 50%;
+        margin-left: 270px;
+    }
+
+    .cards{
+        margin-left: 400px;
+    }
+
+    .card1{
+        top: 100px;
+    }
+
+    .card2{
+        top: 577px;
+        left: 10px;
+    }
+
+    .tabla{
+        display: none;
+    }
+
+    .footer-basic .list-inline{
+        margin-left: 250px;
+    }
+}

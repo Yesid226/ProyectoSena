@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400&family=Outfit:wght@200;300;400;500;600;700&display=swap');
+
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: 100%;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    font-family: 'Outfit';
+}
+
+.mainR{
+    border: 1px solid rgba(0, 0, 0, 0.24);
+    border-radius: 10px;
+    background-color: #f8f8f8;
+    margin: 50px auto;
+    width: 500px;
+    height: 450px;
+    overflow: hidden;
+    transition: 1.5s;
+}
+
+.mainR form{
+    text-align: center;
+    margin: 10px auto;
+}
+
+.mainR form h2{
+    color: #f0932b;
+}
+
+.mainR form input{
+    border-radius: 3px;
+    border: 1px solid #b1b1b1;
+    width: 160px;
+    padding: 10px;
+    margin: 20px 10px 10px 10px;
+}
+
+.mainR form a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.mainR .Rfecha{
+    margin-left: 17px;
+    margin-right: 25px;
+}
+
+.mainR form .registrar{
+    cursor: pointer;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid #b1b1b1;
+    margin-top: 20px;
+    margin-left: 5px;
+    padding: 8px;
+    transition: 1s;
+}
+
+.volver{
+    position: fixed;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    border-radius: 50px;
+    border: 1px solid #b1b1b1;
+    top: 40px;
+    right: 1200px;
+    padding: 8px;
+    transition: 1s;
+}
+
+.volver:hover{
+    color: #fff;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: #d63031;
+}
+
+.mainR form .registrar:hover{
+    color: #fff;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background-color: #0984e3;
+}
+
+.roles{
+    margin-right: 18px;
+    border-radius: 3px;
+    padding: 8px 23px 8px 28px
+}
+
+/*---------------------------- ALERT ----------------------*/
+
+#alert{
+    border: 1px solid #d63031;
+    background-color: #da5858;
+    height: 30px;
+    width: 100%;
+    display: none;
+}
+
+#alert.act{
+    display: block;
+}
+
+.mainR form .registrar.act{
+    transform: rotate(360deg);
+    background-color: #da5858;
+    border-color: #d63031;
+    color: #fff;
+}
+
+#alert p{
+    color: #fff;
+    margin-left: 10px;
+    margin-top: 4px;
+}
+
+#alert.pcorrect{
+    display: block;
+    color: #10ac84;
+    border-color: #10ac84;
+    background-color: #2abd98;
+}
+
+/*-------------------------------------- RESPONSIVE ------------------------------------------*/
+
+@media (min-width: 100px) and (max-width: 500px){
+    
+    body{
+        background-size: 110% 110%;
+    }
+
+    .mainR{
+        margin-left: 30px;
+        margin-right: 30px;
+        height: 680px;
+    }
+
+    .mainR .Rfecha{
+        margin-left: 23px;
+    }
+
+    .mainR .roles{
+        margin-left: 13px;
+    }
+
+    .volver{
+        right: 270px;
+        top: 10px;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 1200px) { 
+
+    body{
+        background-size: 110% 110%;
+    }
+
+    .mainR{
+        margin-left: 200px;
+    }
+    
+    .volver{
+        right: 650px;
+        top: 10px;
+    }
+ }

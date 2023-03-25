@@ -1,0 +1,106 @@
+.lista{
+    margin-left: 30px;
+}
+
+.lista ul li{
+    margin-left: 10px;
+}
+
+.lista2{
+    margin-left: 200px;
+}
+
+.lista2 ul li{
+    margin-left: 10px;
+}
+
+/*-------------------------------EDITAR NOTAS--------------------------------------*/
+
+.mNotas{
+    overflow: hidden;
+    height: 0px;
+    display: flex;
+    transition: 2s;
+}
+
+.mNotas.acteditarNotas{
+    background-color:#4a63a8;
+    height: 500px;
+}
+
+.mNotas .busquedaNotas{
+    margin: 30px 100px;
+}
+
+.busquedaNotas h4{
+    font-weight: 400;
+    color: #fff;
+}
+
+.busquedaNotas .inputBuscar{
+    margin-top: 20px;
+    border: 1px solid #273c75;
+    border-radius: 3px;
+    width: 320px;
+    padding: 5px 10px;
+}
+
+.busquedaNotas .buscarAlumno{
+    cursor: pointer;
+    border: 1px solid #273c75;
+    border-radius: 5px;
+    margin-left: 20px;
+    padding: 5px 40px;
+    transition: 1s;
+}
+
+.busquedaNotas .buscarAlumno:hover{
+    border-radius: 2px;
+    color: #fff;
+    background-color: #0984e3;
+}
+
+/*------------------------------SUBIR DOCS------------------------------------------*/
+
+.mDocs{
+    overflow: hidden;
+    height: 0px;
+    display: flex;
+    transition: 2s;
+}
+
+.mDocs.actsubirDocs{
+    background-color: #4a63a8;
+    height: 500px;
+}
+
+.mDocs .subirDocumentos{
+    margin: 30px 160px;
+}
+
+.subirDocumentos h4{
+    margin-top: 20px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.subirDocumentos .inputB{
+    display: flex;
+    width: 550px;
+    margin-top: 30px;
+}
+
+.subirDocumentos #SA{
+    background-color: #fff;
+    border: 1px solid #273c75;
+    margin-top: 15px;
+    margin-left: 220px;
+    transition: 1s;
+    border-radius: 2px;
+}
+
+#SA:hover{
+    border-radius: 2px;
+    color: #fff;
+    background-color: #0984e3;
+}
