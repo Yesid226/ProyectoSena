@@ -196,89 +196,62 @@ body{
 
 /*---------------------------------------------- SUBMAIN --------------------------------------------*/
 
+.tituloNoticia{
+    color: #192a56;
+    width: 180px;
+    margin: 300px auto;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    border-bottom: 3px solid #e9ad4d;
+    border-radius: 2px;
+}
+
 .submain{
-    margin-top: 120px;
     background-color: #fff;
-    height: 620px;
+    max-height: 620px;
     width: 100%;
     display: flex;
+    margin-bottom: 20px;
 }
 
-/*------- TABLA ------*/
-
-.tabla{
-    border-radius: 5px;
-    border: 1px solid #b1b1b1;
-    margin-left: 50px;
-    margin-top: 30px;
-    text-align: left;
-    width: 50%;
-    height: 550px;
-    display: flex;
-}
-
-.maqT{
-    margin-left: 35px;
-}
-
-.tabla .tablaP{
-    background-color: #dbdbdb;
-}
-
-tr, td{
-    padding: 10px;
-}
 
 /*----- SUBMAIN CONTENT -----*/
 
-.submainContent{
-    width: 470px;
-    height: 500px;
-    margin: 50px auto;
+.submain .noticia{
+    cursor: pointer;
+    margin: 40px 10px 10px 30px;
+    height: 260px;
+    width: 400px;
 }
 
-.submainContent img{
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+.submain .noticia img{
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
 }
 
-.submainTexts{
+.tituloNoticia2{
+    color: #192a56;
+    transition: 0.5s;
+    padding: 10px;
+    width: 180px;
+    margin: 30px auto;
+    margin-bottom: 50px;
+    border-radius: 10px;
+}
+
+.tituloNoticia2 h3{
+    margin: 0;
+}
+
+.tituloNoticia2 i{
     margin-left: 20px;
 }
 
-.submainTexts h4{
-    color: #f0932b;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    font-size: 25px;
-}
-
-.submainTexts .subtit{
-    color: #636363;
-    margin-top: 0;
-}
-
-.submainTexts hr{
-    border-radius: 10px;
-    border: 2px solid #f0932b;
-    width: 80%;
-}
-
-.submainTexts button{
+.tituloNoticia2:hover{
     cursor: pointer;
+    background-color: #192a56;
     color: #fff;
-    background-color: #f0932b;
-    border: none;
-    border-radius: 50px;
-    margin-top: 10px;
-    margin-left: 110px;
-    width: 200px;
-    height: 30px;
-}
-
-.submainTexts button:hover{
-    transform: scale(1.030,1.030);
-    background-color: #ee9e42;
 }
 
 /*---------------------------------------------- FOOTER --------------------------------------------*/
