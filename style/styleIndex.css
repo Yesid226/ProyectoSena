@@ -32,14 +32,16 @@ body{
 }
 
 .nav-container .lista li{
-    padding: 10px;
+    padding: 5px;
     transition: 0.1s;
 }
 
 .lista li:hover{
+    cursor: pointer;
     border-bottom: 3px solid #f0932b;
     border-radius: 3px;
 }
+
 
 .lista li a:link{
     color: black;
@@ -51,7 +53,7 @@ body{
 }
 
 .lista2{
-    margin-left: 300px;
+    margin-left: 260px;
 }
 
 .lista2 ul li{
@@ -105,8 +107,8 @@ body{
 
 .texts{
     width: 35%;
-    margin-left: 140px;
-    margin-top: 50px;
+    margin-left: 150px;
+    margin-top: -40px;
 }
 
 .texts .tit{
@@ -122,13 +124,13 @@ body{
 
 .cards{
     display: flex;
-    margin-top: 100px;
+    margin-top: 70px;
     width: 640px;
 }
 
 .cards .card{
     margin-top: 70px;
-    margin-left: 40px;
+    margin-left: 20px;
     border-radius: 7px;
     height: 300px;
     width: 280px;
@@ -224,6 +226,10 @@ body{
     margin: 40px 10px 10px 30px;
     height: 260px;
     width: 400px;
+}
+
+.noticia:hover p{
+    display: block;
 }
 
 .submain .noticia img{
