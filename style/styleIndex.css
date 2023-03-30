@@ -32,7 +32,10 @@ body{
 }
 
 .nav-container .lista li{
-    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 25px;
+    max-width: 300px;
     transition: 0.1s;
 }
 
@@ -228,8 +231,17 @@ body{
     width: 400px;
 }
 
-.noticia:hover p{
-    display: block;
+.noticia p{
+    color: #192a56;
+    font-weight: bold;
+    margin: 10px auto;
+    width: 250px;
+    border-bottom: 2px solid #f0932b;
+    text-align: center;
+}
+
+.noticia:hover img{
+    transform: scale(0.95,0.95);
 }
 
 .submain .noticia img{
@@ -243,7 +255,7 @@ body{
     transition: 0.5s;
     padding: 10px;
     width: 180px;
-    margin: 40px auto;
+    margin: 80px auto;
     margin-bottom: 50px;
     border-radius: 10px;
 }

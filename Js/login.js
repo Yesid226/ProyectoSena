@@ -39,5 +39,8 @@ ingresar.addEventListener('click', (e) => {
             alerta.classList.remove('act');
             textoAlerta.textContent = ''
         }, 10000);
+    } else {
+        e.preventDefault();
+        location.href = "../roles/docente/docente.html";
     }
 })
